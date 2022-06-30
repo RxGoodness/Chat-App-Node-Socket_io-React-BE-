@@ -30,6 +30,7 @@ io.on("connection", (socket) => {
     console.log("User Disconnected", socket.id);
   });
 });
-server.listen(4002, () => {
+
+server.listen(4000, () => {
   console.log("SERVER RUNNING");
 });
